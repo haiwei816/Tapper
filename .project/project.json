@@ -1,0 +1,45 @@
+{
+  "$schema": "../schemas/project.schema.json",
+  "project_id": "p_ooxd",
+  "author": {
+    "id": "175814101"
+  },
+  "entry": "main.lua",
+  "version": "2.3",
+  "taptap_publish": {
+    "title": "666，居然还有第六关？",
+    "description": "赛博朋克风格的霓虹酒保游戏！在4条吧台间移动，给顾客滑出正确的饮料。闯过6关，击败需要按顺序喝6杯酒的壮汉Boss！",
+    "category": "arcade",
+    "screen_orientation": "landscape",
+    "collection_type": "sce",
+    "trial_note": "<developer's note>",
+    "app_platforms": "1,2",
+    "developer_id": 390556,
+    "app_id": 835301,
+    "miniapp_id": "tapmcwqbsptaqymkzh",
+    "gameplay_demo_video_source": "https://tapcode-sce.spark.xd.com/videos/p_ooxd/1774763588432-rec_a7fe7940-d5ec-43b5-88b4-3404feb57ce2.mp4"
+  },
+  "assets": {
+    "icon": "./assets/image/cyberpunk_bar_icon_20260329044837.png",
+    "screenshots": [
+      "./game_material/SCREENSHOT_2026-03-29T04-15-44_01.png",
+      "./game_material/SCREENSHOT_2026-03-29T04-15-44_02.png",
+      "./game_material/SCREENSHOT_2026-03-29T04-15-44_03.png"
+    ],
+    "promotional_image": "./game_material/PROMO_2026-03-29T04-15-44_01.jpg",
+    "icon_url": "https://tapcode-sce.spark.xd.com/assets/game_material/p_ooxd/cyberpunk_bar_icon_20260329044837.png",
+    "screenshot_urls": [
+      "https://tapcode-sce.spark.xd.com/assets/game_material/666，居然还有第六关？/SCREENSHOT_2026-03-29T04-15-44_01.png",
+      "https://tapcode-sce.spark.xd.com/assets/game_material/666，居然还有第六关？/SCREENSHOT_2026-03-29T04-15-44_02.png",
+      "https://tapcode-sce.spark.xd.com/assets/game_material/666，居然还有第六关？/SCREENSHOT_2026-03-29T04-15-44_03.png"
+    ],
+    "promotional_image_url": "https://tapcode-sce.spark.xd.com/assets/game_material/666，居然还有第六关？/PROMO_2026-03-29T04-15-44_01.jpg"
+  },
+  "metadata": {
+    "updated_at": "2026-03-29T05:47:21.189Z"
+  },
+  "test_qrcode": {
+    "url": "https://tapcode-sce.spark.xd.com/qrcode/p_ooxd_1774763241055.png",
+    "generated_at": "2026-03-29T05:47:21.189Z"
+  }
+}
