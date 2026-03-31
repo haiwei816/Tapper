@@ -1,20 +1,2 @@
-# Build artifacts
 .build/
 dist/
-
-# Engine internal directories (read-only, not part of user project)
-engine-docs/
-examples/
-templates/
-urhox-libs/
-schemas/
-lua-tools/
-.emmylua/
-.claude/
-
-# Temp and logs
-.tmp/
-logs/
-
-# Meta files
-*.meta
