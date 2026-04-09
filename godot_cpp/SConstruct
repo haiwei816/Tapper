@@ -1,0 +1,27 @@
+#!/usr/bin/env python
+"""
+SConstruct - Godot 4.x GDExtension 构建脚本 (Cyber Tapper)
+
+使用方法:
+    1. 克隆 godot-cpp: git clone https://github.com/godotengine/godot-cpp.git --branch godot-4.2-stable
+    2. 编译 godot-cpp: cd godot-cpp && scons platform=<platform> target=template_debug
+    3. 回到此目录: cd .. && scons platform=<platform> target=template_debug
+
+平台: linux, windows, macos
+"""
+
+import os
+
+env = SConscript("godot-cpp/SConstruct")
+
+# 源文件
+env.Append(CPPPATH=["src/"])
+sources = Glob("src/*.cpp")
+
+# 输出库
+library = env.SharedLibrary(
+    "bin/libcybertapper{}{}".format(env["suffix"], env["SHLIBSUFFIX"]),
+    source=sources,
+)
+
+Default(library)
